@@ -5,8 +5,9 @@
 }
 
 :root{
-  --first-color: #e38528;
+  --first-color: #42C2FF;
   --second-color: #0E2431;
+  --third-color: #B8FFF9;
 }
 
 :root{
@@ -108,7 +109,7 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #e9ddc2;
+  background-color: var(--third-color);
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
@@ -340,7 +341,7 @@ img{
 .btn{
   width: 100%;
   text-align: end;
-  background-color:#f6c453;
+  background-color:var(--first-color);
   color: white;
 }
 span > button{
@@ -368,7 +369,7 @@ button > a:hover{
   color:white;
 }
 .footer{
-  background-color:#e9ddc2 ;
+  background-color:var(--third-color) ;
   color: var(--second-color);
   text-align: center;
   font-weight: var(--font-semi);
