@@ -97,12 +97,27 @@ img{
 .bd-grid{
   max-width: 1024px;
   display: grid;
+  /* justify-content: space-around; */
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
+/* .aa{
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-around;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+} */
+/* .work__container{
+  display:flex;
+  justify-content: center;
+} */
 .l-header{
   width: 100%;
   position: fixed;
