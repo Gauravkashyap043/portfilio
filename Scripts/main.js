@@ -25,7 +25,7 @@ const sr = ScrollReveal({
     reset: true
 });
 function linkdin(){
-    window.location.href = "https://www.linkedin.com/in/shivam-sharma-a7b3ab205/"
+    window.location.href = "https://www.linkedin.com/in/gaurav-kashyap-002675198/"
 }
 sr.reveal('.home__title',{}); 
 sr.reveal('.button',{delay: 200}); 
