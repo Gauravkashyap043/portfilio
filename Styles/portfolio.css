@@ -266,6 +266,11 @@ img{
   width: 200px;
 }
 
+.skills-cont {
+  width:fit-content;
+  margin: auto;
+}
+
 .skills__container{
   text-align: center;
   display: inline-block;
@@ -491,3 +496,5 @@ button > a:hover{
     right: 5%;
   }
 }
+
+
